@@ -1,4 +1,7 @@
 ---
 title: Section 2 - Title
-nav_order: 2
+layout: default
+nav_order: 4
 ---
+
+# Section 2
