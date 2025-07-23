@@ -1,7 +1,7 @@
 ---
 title: Section 2
 layout: default
-has_toc: false in
+has_toc: false
 nav_order: 3
 ---
 
