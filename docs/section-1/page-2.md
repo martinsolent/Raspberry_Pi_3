@@ -28,4 +28,15 @@ Deprecated
 
 - [ ] hello, this is a todo item
 - [ ] hello, this is another todo item
-- [x] goodbye, this item is done
+- [ ] goodbye, this item is done
+
+
+```mermaid
+graph TD;
+    accTitle: the diamond pattern
+    accDescr: a graph with four nodes: A points to B and C, while B and C both point to D
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
