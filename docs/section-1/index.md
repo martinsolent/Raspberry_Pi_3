@@ -18,5 +18,8 @@ nav_order: 2
 
 [Link button](#){: .btn .btn-outline }
 
+![](../../img/1979_Ford_Cortina_mk5.jpg)
 
-"[Wroclaw University Library digitizing rare archival texts](https://www.flickr.com/photos/97810305@N08/9401451269)" by [j_cadmus](https://www.flickr.com/photos/97810305@N08) is marked with [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=openverse).
+[Photo by Charles | Flickr](https://www.flickr.com/photos/92622665@N08/9743021018)
+
+[Creative Commons Attribution 2.0 Generic license.](https://creativecommons.org/licenses/by/2.0/deed.en)
