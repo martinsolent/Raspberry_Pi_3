@@ -7,28 +7,14 @@ nav_order: 2
 
 # Section 1 - Stuff 1
 
-Default label
-{: .label }
+Default label{: .label }
 
+Blue label{: .label .label-blue }
 
+Stable{: .label .label-green }
 
+New release{: .label .label-purple }
 
-Blue label
-{: .label .label-blue }
+Coming soon{: .label .label-yellow }
 
-
-
-Stable
-{: .label .label-green }
-
-
-
-New release
-{: .label .label-purple }
-
-Coming soon
-{: .label .label-yellow }
-
-
-Deprecated
-{: .label .label-red }
+Deprecated{: .label .label-red }
