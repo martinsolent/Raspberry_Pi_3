@@ -24,3 +24,8 @@ Coming soon
 
 Deprecated
 {: .label .label-red }
+
+
+- [ ] hello, this is a todo item
+- [ ] hello, this is another todo item
+- [x] goodbye, this item is done
