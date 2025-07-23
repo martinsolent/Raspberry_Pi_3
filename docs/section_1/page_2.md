@@ -1,6 +1,6 @@
 ---
 title: Stuff 1
-parent: Section_1
+parent: Section 1
 layout: default
 nav_order: 3
 ---
