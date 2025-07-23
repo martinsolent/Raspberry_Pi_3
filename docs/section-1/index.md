@@ -20,6 +20,6 @@ nav_order: 2
 
 ![](../../img/1979_Ford_Cortina_mk5.jpg)
 
-[Photo by Charles | Flickr](https://www.flickr.com/photos/92622665@N08/9743021018)
+[Photo by Charles on Flickr](https://www.flickr.com/photos/92622665@N08/9743021018)
 
 [Creative Commons Attribution 2.0 Generic license.](https://creativecommons.org/licenses/by/2.0/deed.en)
