@@ -1,5 +1,5 @@
 ---
-title: Section 2 - Title
+title: Section 2
 layout: default
 nav_order: 3
 ---
