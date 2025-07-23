@@ -27,7 +27,7 @@ Deprecated
 
 
 - [ ] hello, this is a todo item
-- [ ] hello, this is another todo item
+- [x] hello, this is another todo item
 - [ ] goodbye, this item is done
 
 
