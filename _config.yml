@@ -32,3 +32,12 @@ mermaid:
 
 plugins:
   - jekyll-default-layout
+
+# Sass configuration to suppress deprecation warnings
+sass:
+  quiet_deps: true
+  style: compressed
+  silence_deprecations:
+    - "import"
+    - "global-builtin"
+    - "color-functions"
