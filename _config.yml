@@ -2,9 +2,11 @@ title: Raspberry Pi Tutorials
 description: Get up and running with your Raspberry Pi
 theme: just-the-docs
 
-url: https://github.com/martinsolent/Raspberry_Pi_3
+url: https://martinsolent.github.io
+baseurl: /Raspberry_Pi_3
 
-Template Repository: https://github.com/martinsolent/Raspberry_Pi_3
+aux_links:
+  Template Repository: https://github.com/martinsolent/Raspberry_Pi_3
 
 
 callouts_level: quiet # or loud

@@ -18,13 +18,13 @@ Ultimately, schematics transform what could be a confusing tangle of jumper wire
 
 #### Fritzing Tutorial
 
-![](/img/Pi_folder_CAPs/Screenshot%202025-10-18%20183927.png)
+![]({{ '/img/Pi_folder_CAPs/Screenshot%202025-10-18%20183927.png' | relative_url }})
 
 [Fritzing website & download](https://fritzing.org/)
 
 **Fritzing is a user-friendly tool for designing and documenting electronics projects, including those involving the Raspberry Pi.** It allows you to visually lay out circuits using a breadboard view, create schematic diagrams, and even design printed circuit boards (PCBs) for fabrication. **It is not free but a bargain at €8 (Euros)**
 
-![](/img/Pi_folder_CAPs/Screenshot%202025-10-18%20184657.png)
+![]({{ '/img/Pi_folder_CAPs/Screenshot%202025-10-18%20184657.png' | relative_url }})
 
 **For Raspberry Pi projects, Fritzing can help you:**
 
@@ -37,14 +37,14 @@ It’s particularly useful for beginners and educators, as it simplifies the pro
 
 **It is not free but a bargain at €8 (Euros)**
 
-![](/img/Pi_folder_CAPs/Screenshot%202025-10-18%20184132.png)
+![]({{ '/img/Pi_folder_CAPs/Screenshot%202025-10-18%20184132.png' | relative_url }})
 
 
 **Using Fritzing**
 
 Practical application of using Fritzing or other similar packages and platforms. 
 
-![](/img/Pi_folder_CAPs/use_case_fritzing.png)
+![]({{ '/img/Pi_folder_CAPs/use_case_fritzing.png' | relative_url }})
 
 
 | **Element**        | **Description**                                                                                                                                                                                                                                                                                                                                 |
@@ -64,7 +64,7 @@ Now we look at the practical steps of using diagrams to support our learning pro
 
 
 
-![](/img/Pi_folder_CAPs/Screenshot%202025-10-19%20at%2009.22.20.png)
+![]({{ '/img/Pi_folder_CAPs/Screenshot%202025-10-19%20at%2009.22.20.png' | relative_url }})
 
 
 Image: [sunfounder.com Turorials & Support](https://docs.sunfounder.com/projects/davinci-kit/en/latest/python_pi5/pi5_1.1.1_blinking_led_python.html)

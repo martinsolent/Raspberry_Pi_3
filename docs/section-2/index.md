@@ -11,7 +11,7 @@ Switching an LED on and off is often considered the **“Hello World”** of har
 
 [**NERDCAVE, 2026**. Tutorial 2 - LED Control](https://nerdcave.xyz/docs/raspberry-pi/module-and-sensors/raspberry-pi-module-and-sensors-hello-led)
 
-![all_led_parts](/img/led_project/all_led_parts.jpg)
+![all_led_parts]({{ '/img/led_project/all_led_parts.jpg' | relative_url }})
 
 | **Hardware Required:**       | **Installed on the Pi:** |
 | ---------------------------- | ------------------------ |
@@ -25,83 +25,83 @@ Switching an LED on and off is often considered the **“Hello World”** of har
 
 This is what the final set-up of the project should look like:  
 
-![end_led_set_up](/img/led_project/end_led_set_up.jpg)
+![end_led_set_up]({{ '/img/led_project/end_led_set_up.jpg' | relative_url }})
 
 ### Hardware Set-up
 
 We will connect the **Breadboard** to the **40-way GPIO connectors** on the **Pi** highlighted below
 
-![end_led_set_up](/img/led_project/pi_pins.png)
+![end_led_set_up]({{ '/img/led_project/pi_pins.png' | relative_url }})
 
 Using a **Ribbon Cable**
 
-![end_led_set_up](/img/led_project/ribbon.jpg)
+![end_led_set_up]({{ '/img/led_project/ribbon.jpg' | relative_url }})
 
 The Ribbon Cable has notches on both off the connectors to help connect them the right way around
 
-![end_led_set_up](/img/led_project/ribbon_notch.png)
+![end_led_set_up]({{ '/img/led_project/ribbon_notch.png' | relative_url }})
 
 The issue you will face is that the **GPIO connector** block on the **Pi** does not have a notch cutout to align the cable correctly – if it is not connected the right way around it will not work or worst damage the **Pi** and/or the components attached to it
 
-![end_led_set_up](/img/led_project/pi_pins_close_up.png)
+![end_led_set_up]({{ '/img/led_project/pi_pins_close_up.png' | relative_url }})
 
 **Tip:** The **Ribbon cable must run straight** between the two boards **with no twist**. Both connectors orient the same way, notches outward from their respective Printed circuit boards (PCBs)
 
-![end_led_set_up](/img/led_project/ribbon_straight.png)
+![end_led_set_up]({{ '/img/led_project/ribbon_straight.png' | relative_url }})
 
 First carefully add the **T-Cobbler** to the top of the **Breadboard** making sure you do not bend or break the pins
 
-![end_led_set_up](/img/led_project/bread-board.png)
+![end_led_set_up]({{ '/img/led_project/bread-board.png' | relative_url }})
 
 On the **T-Cobbler** the notch cutout is at the top, so connecting the **Cable Ribbon** to this first and the **Pi** second – making sure the cable runs straight between the two devices.
 
-![end_led_set_up](/img/led_project/cobbler_pins_2.png)
+![end_led_set_up]({{ '/img/led_project/cobbler_pins_2.png' | relative_url }})
 
 **Ribbon Cable** connected to the **T-Cobbler**
 
-![end_led_set_up](/img/led_project/cable_on_breadboard.jpg)
+![end_led_set_up]({{ '/img/led_project/cable_on_breadboard.jpg' | relative_url }})
 
 Then connect the other end to the **Pi**
 
-![end_led_set_up](/img/led_project/ribbon_on_Pi.jpg)
+![end_led_set_up]({{ '/img/led_project/ribbon_on_Pi.jpg' | relative_url }})
 
 #### Wiring the Breadboard  
 
 **Blinking LED Schema**
-![end_led_set_up](/img/led_project/schema_led_project.png)
+![end_led_set_up]({{ '/img/led_project/schema_led_project.png' | relative_url }})
 
 Get ready the **2x Jump wire M-M, 1x LED** and **1x Resister (220 Ω)** to connect to the **Breadboard**
 
-![end_led_set_up](/img/led_project/LED_flash_parts.jpg)
+![end_led_set_up]({{ '/img/led_project/LED_flash_parts.jpg' | relative_url }})
 
 Connect one end of a **Jump wire** to the left **Power Rail** on the **+ Column** to **Row 5** this aligns to the **GND (Ground)** on the **T-Cobbler**
 
-![end_led_set_up](/img/led_project/bread_wire_1.png)
+![end_led_set_up]({{ '/img/led_project/bread_wire_1.png' | relative_url }})
 
 Then attach the other end to **Row 5** in **Column A** in the main component area (the centre grid)
 
-![end_led_set_up](/img/led_project/bread_wire_2.png)
+![end_led_set_up]({{ '/img/led_project/bread_wire_2.png' | relative_url }})
 
 Connect the other **Jump Cable** to **Row 6** in **Column A** in the main component area (the centre grid) this aligns to the **GPIO17** on the **T-Cobbler**
 
-![end_led_set_up](/img/led_project/bread_wire_3.png)
+![end_led_set_up]({{ '/img/led_project/bread_wire_3.png' | relative_url }})
 
 Connect the other end of **Jump Cable** to **Row 26** on **Column A** in the main component area (the centre grid)
 
-![end_led_set_up](/img/led_project/bread_wire_4.png)
+![end_led_set_up]({{ '/img/led_project/bread_wire_4.png' | relative_url }})
 
 We will now add the **Resister;** one end goes into the left **Power Rail** on the **+ Column in Row 27** and the other end to **Row 27 on Column B**
 
-![end_led_set_up](/img/led_project/bread_wire_6.png)
+![end_led_set_up]({{ '/img/led_project/bread_wire_6.png' | relative_url }})
 
 And finally, we will add the **LED light** (The longer leg is **+** and the shorter one is **-**)
 
-![end_led_set_up](/img/led_project/led_plys_minus.png)
+![end_led_set_up]({{ '/img/led_project/led_plys_minus.png' | relative_url }})
 
 
 Place the **+** (long) leg in **Column E Row 26** and the **–** (short) leg in **Column E Row 27**
 
-![end_led_set_up](/img/led_project/bread_wire_7.png)
+![end_led_set_up]({{ '/img/led_project/bread_wire_7.png' | relative_url }})
 
 ### Software set-up on Raspberry Pi
 
@@ -113,11 +113,11 @@ Make sure you have **Python** installed on the **Pi,** normally on a Mac or PC y
 
 ```python --version``` but on a **Raspberry Pi OS** Python 3 is usually pre-installed, so if you type the python command (without a version number) often points to nothing. As below:
 
-![end_led_set_up](/img/led_project/python_v_1.png)
+![end_led_set_up]({{ '/img/led_project/python_v_1.png' | relative_url }})
 
 So, on a **Raspberry Pi** you need to use ```python3 --version``` instead. This will print the version if **Python** is installed:
 
-![end_led_set_up](/img/led_project/python_v_2.png)
+![end_led_set_up]({{ '/img/led_project/python_v_2.png' | relative_url }})
 
 If **Python** is not installed or is not the current version go to: <https://www.python.org/downloads/>
 
@@ -164,19 +164,19 @@ while True:
 
 **VS Code** will look like this:
 
-![end_led_set_up](/img/led_project/vs_code_final.png)
+![end_led_set_up]({{ '/img/led_project/vs_code_final.png' | relative_url }})
 
 Now **Run Python File** 
 
-![end_led_set_up](/img/led_project/run_python_VS.png)
+![end_led_set_up]({{ '/img/led_project/run_python_VS.png' | relative_url }})
 
 The **LED** light will now flash 
 
-![end_led_set_up](/img/led_project/breadboard_flash.gif)
+![end_led_set_up]({{ '/img/led_project/breadboard_flash.gif' | relative_url }})
 
 
 and **On** and **Off** progress will be printed in the **terminal**
 
-![end_led_set_up](/img/led_project/Blink_led_VS_code_final.gif)
+![end_led_set_up]({{ '/img/led_project/Blink_led_VS_code_final.gif' | relative_url }})
 
 To stop it running: mouse click in the **terminal** and then **ctrl+C** on the keyboard
